@@ -1,0 +1,61 @@
+/* Header styling */
+header {
+    text-align: center;
+  }
+  
+  /* Main image styling - CORRECTED */
+  #featured-property img {
+    display: block;
+    width: 900px; /* Added required width */
+    margin: 0 auto 20px; /* Proper centering + bottom margin */
+  }
+  
+  /* Navigation styling - IMPROVED */
+  nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    padding: 0 10px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    display: inline-block; /* Better spacing control */
+  }
+  
+  /* Image caption styling - MAINTAINED */
+  figcaption {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  /* Featured property styling - IMPROVED */
+  #featured-property p {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 10px; /* Add breathing room */
+  }
+  
+  /* Details section styling - CORRECTED */
+  #details {
+    overflow: hidden;
+    background-color: #e70707; /* Consistent background */
+  }
+  
+  #details div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  /* Fix color inheritance */
+  #details div,
+  #details a {
+    color: #333;
+  }
